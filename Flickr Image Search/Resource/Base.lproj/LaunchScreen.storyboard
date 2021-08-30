@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J4F-yM-Huh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4ko-pL-nuJ">
+            <objects>
+                <viewController id="J4F-yM-Huh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MIy-xJ-wqu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flickr" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCC-6y-SNJ">
+                                <rect key="frame" x="110.5" y="314.5" width="193.5" height="107.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="90"/>
+                                <color key="textColor" name="Flickr-Blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Search API" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDa-8a-mWZ">
+                                <rect key="frame" x="136" y="412" width="168" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" name="Flickr-Pink"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🧑🏻‍💻 By Haresh Ghatala" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="H5u-Yi-YZg">
+                                <rect key="frame" x="16" y="824" width="382" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" name="Flickr-Blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SkH-pN-CaR">
+                                <rect key="frame" x="0.0" y="684" width="150" height="20"/>
+                                <color key="backgroundColor" name="Flickr-Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="jYf-s2-F6p"/>
+                                    <constraint firstAttribute="width" constant="150" id="t6F-Sd-fg7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EXo-XN-s7C">
+                                <rect key="frame" x="0.0" y="654" width="130" height="20"/>
+                                <color key="backgroundColor" name="Flickr-Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="1Gk-k7-Knx"/>
+                                    <constraint firstAttribute="width" constant="130" id="hYW-f1-p2G"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D1T-ed-xVy">
+                                <rect key="frame" x="264" y="144" width="150" height="20"/>
+                                <color key="backgroundColor" name="Flickr-Pink"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="1g9-cb-pLy"/>
+                                    <constraint firstAttribute="height" constant="20" id="zPW-gf-EGu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bbI-z8-9St">
+                                <rect key="frame" x="284" y="174" width="130" height="20"/>
+                                <color key="backgroundColor" name="Flickr-Pink"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="WKJ-ze-yNj"/>
+                                    <constraint firstAttribute="height" constant="20" id="j8v-JM-sQN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xCq-Oz-OB9"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EXo-XN-s7C" firstAttribute="leading" secondItem="xCq-Oz-OB9" secondAttribute="leading" id="0E4-Cm-urA"/>
+                            <constraint firstItem="eCC-6y-SNJ" firstAttribute="centerY" secondItem="MIy-xJ-wqu" secondAttribute="centerY" constant="-80" id="8od-IW-b7u"/>
+                            <constraint firstItem="PDa-8a-mWZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eCC-6y-SNJ" secondAttribute="leading" id="8y8-ld-Nxc"/>
+                            <constraint firstItem="bbI-z8-9St" firstAttribute="top" secondItem="D1T-ed-xVy" secondAttribute="bottom" constant="10" id="JPI-9l-J13"/>
+                            <constraint firstItem="PDa-8a-mWZ" firstAttribute="trailing" secondItem="eCC-6y-SNJ" secondAttribute="trailing" id="Mtz-M7-0zb"/>
+                            <constraint firstItem="xCq-Oz-OB9" firstAttribute="bottom" secondItem="H5u-Yi-YZg" secondAttribute="bottom" constant="8" id="S0L-No-Xwn"/>
+                            <constraint firstItem="eCC-6y-SNJ" firstAttribute="centerX" secondItem="MIy-xJ-wqu" secondAttribute="centerX" id="SRX-zH-QFg"/>
+                            <constraint firstItem="H5u-Yi-YZg" firstAttribute="leading" secondItem="xCq-Oz-OB9" secondAttribute="leading" constant="16" id="SgJ-8T-x2A"/>
+                            <constraint firstItem="D1T-ed-xVy" firstAttribute="top" secondItem="xCq-Oz-OB9" secondAttribute="top" constant="100" id="axY-Ah-9lb"/>
+                            <constraint firstItem="SkH-pN-CaR" firstAttribute="leading" secondItem="xCq-Oz-OB9" secondAttribute="leading" id="dXW-H3-P0l"/>
+                            <constraint firstItem="xCq-Oz-OB9" firstAttribute="trailing" secondItem="H5u-Yi-YZg" secondAttribute="trailing" constant="16" id="eAS-ij-XwV"/>
+                            <constraint firstItem="xCq-Oz-OB9" firstAttribute="trailing" secondItem="D1T-ed-xVy" secondAttribute="trailing" id="gd7-FL-nqX"/>
+                            <constraint firstItem="H5u-Yi-YZg" firstAttribute="top" secondItem="SkH-pN-CaR" secondAttribute="bottom" constant="120" id="lrI-AF-vhP"/>
+                            <constraint firstItem="PDa-8a-mWZ" firstAttribute="top" secondItem="eCC-6y-SNJ" secondAttribute="bottom" constant="-10" id="qe2-w4-LVy"/>
+                            <constraint firstItem="SkH-pN-CaR" firstAttribute="top" secondItem="EXo-XN-s7C" secondAttribute="bottom" constant="10" id="r4X-S3-SFL"/>
+                            <constraint firstItem="xCq-Oz-OB9" firstAttribute="trailing" secondItem="bbI-z8-9St" secondAttribute="trailing" id="uyO-Gu-lGB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IRH-fO-B5a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="84" y="422"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Flickr-Blue">
+            <color red="0.0" green="0.38823529411764707" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Flickr-Pink">
+            <color red="0.98431372549019602" green="0.0" blue="0.50588235294117645" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Flickr Image Search
 //
-//  Created by Hareshbhai Ghatala on 2021/08/30.
+//  Created by Haresh Ghatala on 2021/08/30.
 //
 
 import UIKit

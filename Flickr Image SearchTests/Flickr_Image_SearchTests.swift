@@ -2,7 +2,7 @@
 //  Flickr_Image_SearchTests.swift
 //  Flickr Image SearchTests
 //
-//  Created by Hareshbhai Ghatala on 2021/08/30.
+//  Created by Haresh Ghatala on 2021/08/30.
 //
 
 import XCTest
