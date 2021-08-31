@@ -24,7 +24,7 @@
 		B0CBB63D26DD6807005F5DA3 /* SearchDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBB63C26DD6807005F5DA3 /* SearchDetails.swift */; };
 		B0CBB64226DD6822005F5DA3 /* PhotoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBB64126DD6822005F5DA3 /* PhotoDetails.swift */; };
 		B0CBB64726DD6840005F5DA3 /* PhotoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBB64626DD6840005F5DA3 /* PhotoItem.swift */; };
-		B0CBB65226DE00A4005F5DA3 /* SearchHistory.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0CBB65126DE00A4005F5DA3 /* SearchHistory.plist */; };
+		B0CBB65A26DE7939005F5DA3 /* LendingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBB65926DE7939005F5DA3 /* LendingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,7 @@
 		B0CBB63C26DD6807005F5DA3 /* SearchDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetails.swift; sourceTree = "<group>"; };
 		B0CBB64126DD6822005F5DA3 /* PhotoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetails.swift; sourceTree = "<group>"; };
 		B0CBB64626DD6840005F5DA3 /* PhotoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItem.swift; sourceTree = "<group>"; };
-		B0CBB65126DE00A4005F5DA3 /* SearchHistory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SearchHistory.plist; sourceTree = "<group>"; };
+		B0CBB65926DE7939005F5DA3 /* LendingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +182,7 @@
 		B0CBB60C26DD4B3F005F5DA3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B0CBB65926DE7939005F5DA3 /* LendingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -217,7 +218,6 @@
 			children = (
 				B0CBB5CD26DD443A005F5DA3 /* Assets.xcassets */,
 				B0CBB5CF26DD443A005F5DA3 /* LaunchScreen.storyboard */,
-				B0CBB65126DE00A4005F5DA3 /* SearchHistory.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -326,7 +326,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CBB5D126DD443A005F5DA3 /* LaunchScreen.storyboard in Resources */,
-				B0CBB65226DE00A4005F5DA3 /* SearchHistory.plist in Resources */,
 				B0CBB5CE26DD443A005F5DA3 /* Assets.xcassets in Resources */,
 				B0CBB5CC26DD4437005F5DA3 /* Main.storyboard in Resources */,
 			);
@@ -361,6 +360,7 @@
 				B0CBB5C726DD4437005F5DA3 /* SceneDelegate.swift in Sources */,
 				B0CBB61F26DD537E005F5DA3 /* ProgressHUD.swift in Sources */,
 				B0CBB63326DD5AF4005F5DA3 /* FlickrImageCollectionViewCell.swift in Sources */,
+				B0CBB65A26DE7939005F5DA3 /* LendingViewModel.swift in Sources */,
 				B0CBB61A26DD523F005F5DA3 /* Constants.swift in Sources */,
 				B0CBB62E26DD5424005F5DA3 /* UIImageView+WebImage.swift in Sources */,
 				B0CBB62926DD53DC005F5DA3 /* URLSession+Handler.swift in Sources */,

@@ -20,7 +20,6 @@ class ImageCache {
 extension UIImageView {
     
     func load(urlStr: String, placeholder: Bool = true) {
-        
         if let cachedImage = ImageCache.shared.cache.object(forKey: urlStr as NSString) {
             self.image = cachedImage
             return
