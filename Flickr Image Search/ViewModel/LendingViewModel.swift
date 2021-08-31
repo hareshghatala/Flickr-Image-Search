@@ -38,7 +38,7 @@ class LendingViewModel {
         }
         insertSearchHistory(text: searchStr)
         
-        Service.shared.SearchImages(searchText: searchStr, offset: offset) { (result: Result<SearchDetails, ServiceError>) in
+        serviceSession.SearchImages(searchText: searchStr, offset: offset) { (result: Result<SearchDetails, ServiceError>) in
             switch result {
             case .success(let searchList):
                 self.handleSuccess(response: searchList, wipeData: (offset == 0))
