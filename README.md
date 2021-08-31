@@ -7,7 +7,7 @@ This demo app contains two columned UI to disply search images. When opening the
 - ViewModel & View bounded using swift closure.
 - UI refreshed with the data update.
 - Added pagination _(infinite scrolling)_ to the image lists.
-
+- Provides history of past search terms _(latest 20 items are provided)_
 
 ## Technical Specification
 
